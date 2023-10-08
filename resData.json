@@ -1,0 +1,801 @@
+[
+    {
+      "info": {
+        "id": "422763",
+        "name": "Tourist Sweet Shop",
+        "cloudinaryImageId": "kywwxpvmolpvqlk89dhs",
+        "locality": "Station Road",
+        "areaName": "Kotdwar",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Sweets",
+          "Snacks",
+          "South Indian",
+          "North Indian",
+          "Beverages"
+        ],
+        "avgRating": 4,
+        "veg": true,
+        "feeDetails": {
+          "restaurantId": "422763",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "235283",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "500+",
+        "sla": {
+          "deliveryTime": 13,
+          "lastMileTravel": 0.1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "13 mins",
+          "lastMileTravelString": "0.1 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 20:51:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": { },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/tourist-sweet-shop-station-road-kotdwar-kotdwar-422763",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "469954",
+        "name": "Moms Biryani cafe",
+        "cloudinaryImageId": "emsojaklkwn7omrqapdj",
+        "locality": "Gokhley Marg",
+        "areaName": "Kotdwar Locality",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "Biryani",
+          "North Indian",
+          "Chinese",
+          "Beverages"
+        ],
+        "avgRating": 3.5,
+        "feeDetails": {
+          "restaurantId": "469954",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "282933",
+        "avgRatingString": "3.5",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 17,
+          "serviceability": "SERVICEABLE",
+          "slaString": "17 mins",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 22:00:00",
+          "opened": true
+        },
+        "badges": { },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": { },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": { },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/moms-biryani-cafe-gokhley-marg-kotdwar-locality-kotdwar-469954",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "424387",
+        "name": "Tourist Sweet N Bakers",
+        "cloudinaryImageId": "h8ulat8ebego72b7tqwo",
+        "areaName": "Kotdwar",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Bakery",
+          "Sweets"
+        ],
+        "avgRating": 4.1,
+        "veg": true,
+        "feeDetails": {
+          "restaurantId": "424387",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "236228",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 17,
+          "serviceability": "SERVICEABLE",
+          "slaString": "17 mins",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 21:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": { },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/tourist-sweet-n-bakers-kotdwar-kotdwar-424387",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "420197",
+        "name": "Food My Door",
+        "cloudinaryImageId": "ygf2j514sap8fjizj9e3",
+        "locality": "Maini Valley Colony",
+        "areaName": "Kotdwar",
+        "costForTwo": "₹350 for two",
+        "cuisines": [
+          "Chinese",
+          "North Indian",
+          "Desserts",
+          "Burgers",
+          "Pizzas",
+          "Italian"
+        ],
+        "avgRating": 3.8,
+        "feeDetails": {
+          "restaurantId": "420197",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "233918",
+        "avgRatingString": "3.8",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 25,
+          "lastMileTravel": 3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25 mins",
+          "lastMileTravelString": "3.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 22:00:00",
+          "opened": true
+        },
+        "badges": { },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": { },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹150 OFF",
+          "subHeader": "ABOVE ₹299",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/food-my-door-maini-valley-colony-kotdwar-kotdwar-420197",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "424614",
+        "name": "The Chai Theka",
+        "cloudinaryImageId": "lbzxpluvm12ub8bdxtqt",
+        "locality": "Devi Road",
+        "areaName": "Kotdwar Locality",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "Beverages",
+          "Chinese",
+          "Snacks"
+        ],
+        "avgRating": 3.6,
+        "veg": true,
+        "feeDetails": {
+          "restaurantId": "424614",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "206523",
+        "avgRatingString": "3.6",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 28,
+          "lastMileTravel": 0.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "28 mins",
+          "lastMileTravelString": "0.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 21:45:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": { },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/the-chai-theka-devi-road-kotdwar-locality-kotdwar-424614",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "421319",
+        "name": "Tandoori Bite",
+        "cloudinaryImageId": "dj8to9tegnktpvy3qvjt",
+        "locality": "Devi Road",
+        "areaName": "Kotdwar Locality",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "Indian",
+          "Chinese",
+          "Tandoor",
+          "Snacks"
+        ],
+        "avgRating": 4,
+        "feeDetails": {
+          "restaurantId": "421319",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "4484",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 19,
+          "lastMileTravel": 1.1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "19 mins",
+          "lastMileTravelString": "1.1 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 21:45:00",
+          "opened": true
+        },
+        "badges": { },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": { },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": { },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/tandoori-bite-devi-road-kotdwar-locality-kotdwar-421319",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "421080",
+        "name": "Krusty Patty and Rolls",
+        "cloudinaryImageId": "z8hjanzyrzave5nymehn",
+        "locality": "Devi Road",
+        "areaName": "Kotdwar Locality",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Snacks",
+          "Beverages"
+        ],
+        "avgRating": 4.1,
+        "veg": true,
+        "feeDetails": {
+          "restaurantId": "421080",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "234609",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 22,
+          "lastMileTravel": 0.1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "22 mins",
+          "lastMileTravelString": "0.1 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 19:00:00",
+          "opened": true
+        },
+        "badges": { },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": { },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": { },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/krusty-patty-and-rolls-devi-road-kotdwar-locality-kotdwar-421080",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "424099",
+        "name": "The Retreat Sweet And Restaurant",
+        "cloudinaryImageId": "s4mczfmgfooogt14dvub",
+        "locality": "Station Road",
+        "areaName": "Kotdwar",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "North Indian",
+          "Chinese",
+          "South Indian",
+          "Desserts",
+          "Sweets"
+        ],
+        "avgRating": 3.7,
+        "feeDetails": {
+          "restaurantId": "424099",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "236012",
+        "avgRatingString": "3.7",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 17,
+          "lastMileTravel": 0.1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "17 mins",
+          "lastMileTravelString": "0.1 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 22:00:00",
+          "opened": true
+        },
+        "badges": { },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": { },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": { },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/the-retreat-sweet-and-restaurant-station-road-kotdwar-kotdwar-424099",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "423238",
+        "name": "Baline Pizza",
+        "cloudinaryImageId": "ivkba0ggyf2fenjed4z3",
+        "locality": "Devi Road",
+        "areaName": "Kotdwar",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "Pizzas"
+        ],
+        "avgRating": 4.1,
+        "veg": true,
+        "feeDetails": {
+          "restaurantId": "423238",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "235564",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 31,
+          "lastMileTravel": 1.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "31 mins",
+          "lastMileTravelString": "1.4 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 14:00:00",
+          "opened": true
+        },
+        "badges": { },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": { },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": { },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/baline-pizza-devi-road-kotdwar-kotdwar-423238",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "433203",
+        "name": "Startup Cafe",
+        "cloudinaryImageId": "rggvjqq0e6fy1raf974v",
+        "locality": "Convent Road",
+        "areaName": "Kotdwar Locality",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "North Indian",
+          "Chinese",
+          "Beverages",
+          "Tandoor",
+          "Italian"
+        ],
+        "avgRating": 3.5,
+        "feeDetails": {
+          "restaurantId": "433203",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 1600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 1600
+        },
+        "parentId": "195565",
+        "avgRatingString": "3.5",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 22,
+          "lastMileTravel": 2.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "22 mins",
+          "lastMileTravelString": "2.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-07 22:00:00",
+          "opened": true
+        },
+        "badges": { },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": { },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": { },
+            "textBased": { },
+            "textExtendedBadges": { }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": { },
+            "video": { }
+          }
+        },
+        "reviewsSummary": { },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": { }
+      },
+      "analytics": { },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/startup-cafe-convent-road-kotdwar-locality-kotdwar-433203",
+        "type": "WEBLINK"
+      }
+    }
+]
