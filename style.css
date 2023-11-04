@@ -76,6 +76,12 @@ display: flex;
   display: flex;
 }
 .user-card{
+  display: flex;
 padding: 10px;
 border: solid 1px black;
+}
+.git-img{
+height: 200px;
+width: 200px;
+margin-right: 10px;
 }

@@ -4,9 +4,10 @@ import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 const Body = () => {
   const [ListOfRestaurants, setListOfRestaurants] = useState([]);
-  const[ filterdRestaurants, setFilterdRestaurants]= useState([])
+  const [filterdRestaurants, setFilterdRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
@@ -15,17 +16,17 @@ const Body = () => {
   }, []);
 
   const linkStyles = {
-    textDecoration: 'none', 
-    color:"black"
-  
+    textDecoration: "none",
+    color: "black",
   };
+
   const fetchData = async () => {
     // const data = await fetch(
     //   "https://www.swiggy.com/dapi/restaurants/list/v5?lat=29.7453031&lng=78.5198094&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     // );
-    const data =await fetch(
+    const data = await fetch(
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.3164945&lng=78.03219179999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-    )
+    );
     // https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.3164945&lng=78.03219179999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
     const json = await data.json();
     console.log("Swiggy Data:", json);
@@ -44,8 +45,15 @@ const Body = () => {
     setFilterdRestaurants(
       json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
-    
   };
+
+  const onlineSatus = useOnlineStatus();
+
+  if (onlineSatus == false) {
+    return (
+      <h1>Looks like you are offline!!! Please check your interent connection</h1>
+    );
+  }
 
   return ListOfRestaurants.length === 0 ? (
     <Shimmer />
@@ -71,12 +79,13 @@ const Body = () => {
               // });
               const filteredRestaurant = ListOfRestaurants.filter((res) => {
                 console.log("res name:", res.info.name);
-                return  res.info.name.toLowerCase().includes(searchText.toLowerCase());
+                return res.info.name
+                  .toLowerCase()
+                  .includes(searchText.toLowerCase());
               });
               console.log("filtered data:", filteredRestaurant);
 
               setFilterdRestaurants(filteredRestaurant);
-
             }}
           >
             {" "}
@@ -86,7 +95,9 @@ const Body = () => {
         <button
           className="filter-btn"
           onClick={() => {
-            const filterdList = ListOfRestaurants.filter((res) => res.info.avgRating > 4);
+            const filterdList = ListOfRestaurants.filter(
+              (res) => res.info.avgRating > 4
+            );
             setListOfRestaurants(filterdList);
             console.log(filterdList);
           }}
@@ -97,8 +108,14 @@ const Body = () => {
       </div>
       <div className="res-container">
         {filterdRestaurants.map((restaurant) => (
-      <Link style={linkStyles} key={restaurant.info.id} to={"/restaurants/"+restaurant.info.id}>    <RestaurantCard  resData={restaurant} />
-         </Link>
+          <Link
+            style={linkStyles}
+            key={restaurant.info.id}
+            to={"/restaurants/" + restaurant.info.id}
+          >
+            {" "}
+            <RestaurantCard resData={restaurant} />
+          </Link>
         ))}
       </div>
     </div>
