@@ -1,17 +1,19 @@
-import RestaurantCard,{withPromotedLabel} from "./RestaurantCard";
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 // let resList = require("../../resData.json");
 // dont use reslist mock data
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 const Body = () => {
   const [ListOfRestaurants, setListOfRestaurants] = useState([]);
   const [filterdRestaurants, setFilterdRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
+  const {loggedInUser,setUserName} = useContext(UserContext)
 
   useEffect(() => {
-    console.log("useEffects called");
+    // console.log("use Effects called");
     fetchData();
   }, []);
 
@@ -20,7 +22,7 @@ const Body = () => {
     color: "black",
   };
 
-  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard)
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
   const fetchData = async () => {
     // const data = await fetch(
@@ -31,7 +33,7 @@ const Body = () => {
     );
     // https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.3164945&lng=78.03219179999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
     const json = await data.json();
-    console.log("Swiggy Data:", json);
+    // console.log("Swiggy Data:", json);
     // console.log(
     //   "Swiggy Data:",
     //   json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
@@ -44,7 +46,10 @@ const Body = () => {
       json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
 
-    console.log("res:", json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    console.log(
+      "res:",
+      json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    );
     setFilterdRestaurants(
       json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
@@ -77,14 +82,14 @@ const Body = () => {
           <button
             className="px-4 py-1 bg-green-100 m-4 rounded-lg"
             onClick={() => {
-              console.log("searchText:", searchText);
+              // console.log("searchText:", searchText);
               const filteredRestaurant = ListOfRestaurants.filter((res) => {
-                console.log("res name:", res.info.name);
+                // console.log("res name:", res.info.name);
                 return res.info.name
                   .toLowerCase()
                   .includes(searchText.toLowerCase());
               });
-              console.log("filtered data:", filteredRestaurant);
+              // console.log("filtered data:", filteredRestaurant);
 
               setFilterdRestaurants(filteredRestaurant);
             }}
@@ -101,12 +106,18 @@ const Body = () => {
                 (res) => res.info.avgRating > 4
               );
               setListOfRestaurants(filterdList);
-              console.log(filterdList);
+              // console.log(filterdList);
             }}
           >
             {" "}
             Top Rated Restaurant
           </button>
+        </div>
+        <div className=" flex items-center m-1 p-1 ">
+          <label className="mx-1" htmlFor=""> UserName </label>
+          <input className="border rounded-sm p-1 border-gray-600" 
+          value={loggedInUser}
+          onChange={(e)=>setUserName(e.target.value) } />
         </div>
       </div>
       <div className="flex flex-wrap">
@@ -117,8 +128,11 @@ const Body = () => {
             to={"/restaurants/" + restaurant.info.id}
           >
             {" "}
-           {true?<RestaurantCardPromoted resData={restaurant}/>:<RestaurantCard resData={restaurant} />
-}
+            {true ? (
+              <RestaurantCardPromoted resData={restaurant} />
+            ) : (
+              <RestaurantCard resData={restaurant} />
+            )}
           </Link>
         ))}
       </div>
